@@ -28,4 +28,4 @@ async def setlg(client,message):
     	    		set(user_id,lgcd)
     	    		await message.reply_text(f"Successfully set custom default language **{cd}**")
     	    else:
-    	    		await message.reply_text(" Please use this command with an argument. \n **For Example:/set English**",reply_markup=InlineKeyboardMarkup([[	InlineKeyboardButton("Channle",url = "https://t.me/vndtranslatebotsupport"
+    	    		await message.reply_text(" Please use this command with an argument. \n **For Example:/set English**",reply_markup=InlineKeyboardMarkup([[	InlineKeyboardButton("Channle",url ="https://t.me/vndtranslatebotsupport"
