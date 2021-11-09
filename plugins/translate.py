@@ -11,7 +11,7 @@ from helper.list import list
 @Client.on_message(filters.private & filters.command(['start']))
 async def start(client, message):
           insert(int(message.chat.id))
-          await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am Vnd Google Translater Bot \n I can translate any language to you selected language \n Bot made by @Venuja_Sadew__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(            [                [                    InlineKeyboardButton("Support™" ,url="https://t.me/vndtranslatebotsupport") ],                 [InlineKeyboardButton("Subscribe 🧐", url="https://www.youtube.com/channel/UCL8PI42TZ_uaQWVVKUJx9Eg"),InlineKeyboardButton("➕ Add Vnd Translator To Your Group ➕",url ="http://t.me/VndTranslateBot?startgroup=true") ]           ]        ) )
+          await message.reply_text(text =f"Hello **{message.from_user.first_name }** \n\n __I am Vnd Google Translater Bot \n I can translate any language to you selected language \n Bot made by @Venuja_Sadew__",reply_to_message_id = message.message_id , parse_mode="markdown", reply_markup=InlineKeyboardMarkup(            [                [                    InlineKeyboardButton("➕ Add Vnd Translator To Your Group ➕" ,url="http://t.me/VndTranslateBot?startgroup=true") ],                 [InlineKeyboardButton("Subscribe 🧐", url="https://www.youtube.com/channel/UCL8PI42TZ_uaQWVVKUJx9Eg"),InlineKeyboardButton("Support",url ="https://t.me/vndtranslatebotsupport") ]           ]        ) )
             
             
 @Client.on_message(filters.private & filters.text  )
