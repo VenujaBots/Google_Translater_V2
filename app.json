@@ -6,8 +6,8 @@
         "Google translater",
         "Mongo DB"
     ],
-    "repository": "https://github.com/lntechnical2/Google_Translater_V2",
-    "success_url": "https://telegram.dog/lntechnical",
+    "repository": "https://github.com/VenujaBots/Google_Translater_V2",
+    "success_url": "https://telegram.dog/vndtranslatebotsupport",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
